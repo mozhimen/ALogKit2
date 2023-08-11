@@ -38,6 +38,7 @@ dependencies {
     implementation project(':SwiftKit:basick')
     implementation project(':SwiftKit:uicorek')
     implementation project(':SwiftKit:underlayk')
+    kapt 'androidx.room:room-compiler:2.5.2'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
